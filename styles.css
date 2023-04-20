@@ -78,14 +78,24 @@ li {
 
 .images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
 }
 
-.images img {
+.image.text {
+    flex-basis: 0;    
+}
+
+.text {
+    margin: 20px 0px 50px 0px;
+    text-align: center;
+}
+
+.image img {
     border: 3px solid #3882F6;
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .card2 {
@@ -112,4 +122,11 @@ li {
 .bottom img {
     flex: 1;
     background-color: gray;
+}
+
+.description {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px;
 }
