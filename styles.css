@@ -143,9 +143,17 @@ li {
     font-size: 18px;
 }
 
-.bottom img {
+.image-box {
     flex: 1;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box img {
+    flex-shrink: 1;
+    height: 200px;
 }
 
 .description {
