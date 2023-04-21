@@ -48,7 +48,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 li {
@@ -69,11 +69,9 @@ li {
     flex: 1;
     padding: 0 200px;
     display: flex;
-}
-
-.card1 {
     justify-content: center;
 }
+
 
 .images {
     display: flex;
@@ -85,7 +83,7 @@ li {
     flex-basis: 1;    
 }
 
-.text {
+.card1 .text {
     margin: 20px 0px 50px 0px;
     text-align: center;
 }
@@ -101,7 +99,6 @@ li {
 .card2 {
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
 }
 
 .container {
@@ -139,10 +136,11 @@ li {
 .title-box button {
     background: #3882F6;
     border: 1px solid #3882F6;
-    color: #E5E7EB;
-    padding: 5px 20px;
-    border-radius: 10px;
-    font-weight: bold;
+    color: #F9FaF8;
+    padding: 10px 30px;
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 .bottom img {
@@ -155,4 +153,36 @@ li {
     font-weight: 900;
     color: #1F2937;
     padding: 50px;
+}
+
+.box {
+    background-color: #3882F6;
+    flex: 1;
+    border-radius: 8px;
+    margin: 75px;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.box button {
+    margin-left: auto;
+    background-color: #3882F6;
+    border: 2px solid #F9FaF8;
+    color: #F9FaF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 7px;
+}
+
+.box .text.one {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FaF8;
+}
+
+.box .text.two {
+    font-size: 18px;
+    color: #F9FaF8;
+    margin-top: 10px;
 }
